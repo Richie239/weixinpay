@@ -63,9 +63,9 @@
     ```
   2. 前端vue代码
      ```
-      onBridgeReady(obj, tradeNo) {
-    var _this = this
-    wx.requestPayment({
+     onBridgeReady(obj, tradeNo) {
+     var _this = this
+     wx.requestPayment({
       timeStamp: obj.timeStamp,
       nonceStr: obj.nonceStr,
       package: obj.package,
