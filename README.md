@@ -61,7 +61,7 @@
     }
    
     ```
-    2. 前端vue代码
+  2. 前端vue代码
      ```
       onBridgeReady(obj, tradeNo) {
     var _this = this
